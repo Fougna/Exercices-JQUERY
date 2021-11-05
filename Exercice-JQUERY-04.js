@@ -18,9 +18,11 @@ $(document).ready(function(){
         $(this).html(joueurencours);
         if(joueurencours == "X"){
             joueurencours = "O";
+            $("#tour-joueur").html("C'est à vous, joueur 2 !");
         }
         else{
             joueurencours = "X";
+            $("#tour-joueur").html("C'est à vous, joueur 1 !");
         }
     }
 
