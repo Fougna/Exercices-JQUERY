@@ -11,10 +11,6 @@ body {
     margin : 30px;
 }
 
-div:hover {
-    opacity: 50%;
-}
-
 #carres {
     display: flex;
 }
@@ -25,8 +21,7 @@ div:hover {
     justify-content: center;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold
-    ;
+    font-weight: bold;
 }
 
 #jaune {
@@ -38,6 +33,10 @@ div:hover {
     border-radius: 20px;
 }
 
+#jaune:hover {
+    opacity: 50%;
+}
+
 #rouge {
     background-color: red;
     height: 250px;
@@ -47,6 +46,10 @@ div:hover {
     border-radius: 20px;
 }
 
+#rouge:hover {
+    opacity: 50%;
+}
+
 #vert {
     background-color: green;
     height: 250px;
@@ -54,4 +57,8 @@ div:hover {
     margin: 10px;
     border: black solid 2px;
     border-radius: 20px;
+}
+
+#vert:hover {
+    opacity: 50%;
 }
