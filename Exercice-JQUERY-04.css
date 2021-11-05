@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#morpion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(47, 129, 91);
+    border-radius: 20px;
+    box-shadow: grey 5px 5px 5px;
+    width: 500px;
+}
+
+#titre-jeu {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 3em;
+}
+
+#regles-titre {
+    font-weight: bold;
+    text-align: center;
+}
+
+#tour-joueur {
+    font-weight: bold;
+    text-align: center;
+}
+
+.bleu {
+    color: blue;
+}
+
+.rouge {
+    color: red;
+}
