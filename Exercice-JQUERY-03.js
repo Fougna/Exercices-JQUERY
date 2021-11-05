@@ -7,3 +7,9 @@ Indice :
 - Vous pouvez créer 1 seule fonction.
 - Utilisez un événement de la souris (et informez l'utilisateur de son succès).
 */
+
+function gagne (){
+    alert("Gagné !");
+}
+
+$("#jaune").hover(gagne);
