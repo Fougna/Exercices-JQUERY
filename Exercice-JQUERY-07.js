@@ -1,6 +1,6 @@
 /* 
-  Projet n°7:
-  -----------
+  Exercice n°7 (Conçu par Laurence Doe)
+
   Créez un programme permettant de tirer avec une arme à feu sur 2 zombies.
   Vous utiliserez les ressources suivantes :
   1. Image (Pistolet)
@@ -18,4 +18,24 @@
   N'hésitez pas à me contacter si vous avez des questions.
 */
 
+$(document).ready(function(){
 
+   $("#bullet").hide();
+   $("#pistol").css("position", "relative");
+
+    function fire(){
+        var balle = $("#bullet");
+        var touche = event.which;
+        balle.css("position", "relative")
+        if (touche == 32){
+            balle.animate({
+                left : "600px",
+            });
+            balle.show();
+            $("p").text("PAN !");
+        }
+    };
+
+    $(document).keydown(fire);
+
+});

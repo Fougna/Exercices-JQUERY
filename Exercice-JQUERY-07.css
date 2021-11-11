@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    border: red 2px solid;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+#pistolet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: grey 5px 5px 5px;
+}
+
+#pistol {
+    height: 350px;
+    width: 350px;
+}
+
+#bullet {
+    height: 200px;
+    width: 200px;
+    margin-top: 13px;
+}
+
+#pistolbullet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
