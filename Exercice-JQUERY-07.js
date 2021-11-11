@@ -24,18 +24,23 @@ $(document).ready(function(){
    $("#pistol").css("position", "relative");
 
     function fire(){
-        var balle = $("#bullet");
-        var touche = event.which;
-        balle.css("position", "relative")
-        if (touche == 32){
-            balle.animate({
-                left : "600px",
-            });
-            balle.show();
-            $("p").text("PAN !");
+      var balle = $("#bullet");
+      var touche = event.which;
+      balle.css("position", "relative")
+      if (touche == 32){
+        balle.animate({
+          left : "600px",
+          });
+        balle.show();
+        $("p").text("PAN !");
         }
     };
 
-    $(document).keydown(fire);
+    function redem(){
+      window.location.reload()
+    };
+
+  $(document).click(redem);
+  $(document).keydown(fire);
 
 });

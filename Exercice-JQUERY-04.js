@@ -28,4 +28,10 @@ $(document).ready(function(){
 
     $("button").click(changetour);
 
+    function redem(){
+        window.location.reload()
+    };
+
+    $(document).keydown(redem);
+
 });

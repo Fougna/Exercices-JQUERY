@@ -14,4 +14,10 @@ $(document).ready(function(){
 
     $("#gyro-btn").click(on);
 
+    function redem(){
+        window.location.reload()
+      };
+
+    $(document).keydown(redem);
+
 });
