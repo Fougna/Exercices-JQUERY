@@ -19,3 +19,11 @@ Vous disposez des ressources suivantes :
 - un visuel pour vous inspirer sur la disposition des touches
 - installation de Bootstrap déjà effectuée pour un meilleur résultat final.
 */
+$(document).ready(function(){
+
+    var input = $("#ecran");
+    var entree = input.val();
+
+    $("#neuf").click()
+
+});

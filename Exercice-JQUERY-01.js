@@ -19,7 +19,7 @@ $(document).ready(function(){
             }
             else{
                 resultdiv.css("color", "green");
-                }
+            };
     };
 
     var button = $("#bouton-calcul");

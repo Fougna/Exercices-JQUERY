@@ -23,7 +23,7 @@ $(document).ready(function(){
    $("#bullet").hide();
    $("#pistol").css("position", "relative");
 
-    function fire(){
+    function fire(event){
       var balle = $("#bullet");
       var touche = event.which;
       balle.css("position", "relative")
