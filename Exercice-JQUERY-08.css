@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(Exercice-JQUERY-08-img/background.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: lime;
+    font-size: 2em;
+}
+
+input {
+    height: 100%;
+    width: 60%;
+}
+
+button {
+    border: black solid 1px;
+    height: 50px;
+    width: 50px;
+    border-radius: 7px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#AC {
+    background-color: red;
+    color: white;
+}
+
+#AC:hover {
+    background-color: brown;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    background-color: darkslategrey;
+    border: black solid 5px;
+    border-radius: 20px;
+    box-shadow: black -5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+.operator {
+    background-color: orange;
+}
+
+.operator:hover {
+    background-color: peru;
+}
+
+.operators {
+    background-color: lightgreen;
+}
+
+.operators:hover {
+    background-color: limegreen;
+}

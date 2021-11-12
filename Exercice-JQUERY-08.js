@@ -1,6 +1,6 @@
 /* 
-Projet n°8: 
-----------
+Exercice n°8 (Conçu par Laurence Doe)
+
 Créez un programme pour implémenter une calculatrice qui permettra d'effectuer les opérations suivantes :
 - Addition
 - Soustraction
@@ -17,9 +17,5 @@ Il faudra également ajouter les touches suivantes :
 Vous disposez des ressources suivantes :
 - une image d'arrière-plan dans le dossier image "img" (usage facultatif)
 - un visuel pour vous inspirer sur la disposition des touches
-- installation de Bootstrap déjà effectuée pour un meilleur résultat final 
-
-Je reste joignable via Discord si vous avez des questions.
+- installation de Bootstrap déjà effectuée pour un meilleur résultat final.
 */
-
-
