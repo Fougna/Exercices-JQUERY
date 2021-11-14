@@ -19,11 +19,65 @@ Vous disposez des ressources suivantes :
 - un visuel pour vous inspirer sur la disposition des touches
 - installation de Bootstrap déjà effectuée pour un meilleur résultat final.
 */
+
 $(document).ready(function(){
 
-    var input = $("#ecran");
-    var entree = input.val();
+    function boutonclic (){
 
-    $("#neuf").click()
+        $("#zero").click(function(){
+            $("#ecran").val("0");
+        });
+        $("#un").click(function(){
+            $("#ecran").val("1");
+        });
+        $("#deux").click(function(){
+            $("#ecran").val("2");
+        });
+        $("#trois").click(function(){
+            $("#ecran").val("3");
+        });
+        $("#quatre").click(function(){
+            $("#ecran").val("4");
+        });
+        $("#cinq").click(function(){
+            $("#ecran").val("5");
+        });
+        $("#six").click(function(){
+            $("#ecran").val("6");
+        });
+        $("#sept").click(function(){
+            $("#ecran").val("7");
+        });
+        $("#huit").click(function(){
+            $("#ecran").val("8");
+        });
+        $("#neuf").click(function(){
+            $("#ecran").val("9");
+        });
+        $("#decimal").click(function(){
+            $("#ecran").val(".");
+        });
+        $("#division").click(function(){
+            $("#ecran").val("/");
+        });
+        $("#multiplication").click(function(){
+            $("#ecran").val("*");
+        });
+        $("#soustraction").click(function(){
+            $("#ecran").val("-");
+        });
+        $("#addition").click(function(){
+            $("#ecran").val("+");
+        });
+        $("#pourcentage").click(function(){
+            $("#ecran").val("%");
+        });
+        $("#clear").click(function(){
+            $("#ecran").val("");
+        });
+
+    };
+
+    $(document).click(boutonclic);
 
 });
